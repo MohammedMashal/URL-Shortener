@@ -27,4 +27,18 @@ A **URL shortening service** with user authentication, password reset, and API d
 git clone https://github.com/MohammedMashal/url-shortener.git
 cd url-shortener
 npm install
+```
 
+## Create a .env file:
+
+```bash
+PORT=3000
+DATABASE_URL=postgresql://user:password@localhost:5432/dbname
+JWT_SECRET=your_jwt_secret
+JWT_EXPIRES_IN=1d
+EMAIL_HOST=smtp.example.com
+EMAIL_PORT=587
+EMAIL_USER=your_email
+EMAIL_PASS=your_email_password
+NODE_ENV=development
+```
